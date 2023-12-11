@@ -1,0 +1,289 @@
+[
+  {
+    "description": "    As a user\n    I want to visit the UK Home Page, Change languages, Login,\n    Confirm booking and Sailing details",
+    "elements": [
+      {
+        "description": "",
+        "id": "direct-ferries-automation-task;task-1-&-2",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Task 1 & 2",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 486303541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I visit the Direct Ferries UK home page",
+            "match": {
+              "location": "step-definitions/login-steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1094543291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I navigate to the Special Offers page",
+            "match": {
+              "location": "step-definitions/login-steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141487874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I change the language of the site to \"France\"",
+            "match": {
+              "location": "step-definitions/login-steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 743786042
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73930958
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "direct-ferries-automation-task;task-1-&-2",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Task 1 & 2",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 197360833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I visit the Direct Ferries UK home page",
+            "match": {
+              "location": "step-definitions/login-steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1163589957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I navigate to the Special Offers page",
+            "match": {
+              "location": "step-definitions/login-steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173754999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I change the language of the site to \"Italia\"",
+            "match": {
+              "location": "step-definitions/login-steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 711649708
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22491416
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "direct-ferries-automation-task;task-3",
+        "keyword": "Scenario Outline",
+        "line": 29,
+        "name": "Task 3",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 195450541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I visit the Direct Ferries UK My Account page",
+            "match": {
+              "location": "step-definitions/login-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2606405625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I Login with Email \"qatesting@directferries.com\" and Booking Ref of \"DFP164826683\"",
+            "match": {
+              "location": "step-definitions/login-steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1232468125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the My Booking page has \"2\" passengers and \"1\" Vehicle for the Outboud Sailing",
+            "match": {
+              "location": "step-definitions/login-steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73633707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the My Booking page has \"1\" passengers and \"1\" Vehicle for the Return Sailing",
+            "match": {
+              "location": "step-definitions/login-steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8444749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I navigate to the Outboud Sailing details page",
+            "match": {
+              "location": "step-definitions/login-steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 316240958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the Vehicle is shown as \"Abarth 500\"",
+            "match": {
+              "location": "step-definitions/login-steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56273708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the Lead Passenger is \"TestOne TestRD\"",
+            "match": {
+              "location": "step-definitions/login-steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5440457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I navigate to View Outboud Sailing Details",
+            "match": {
+              "location": "step-definitions/login-steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161397957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the Other Passenger is \"TestTwo TestRD\"",
+            "match": {
+              "location": "step-definitions/login-steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 201691625
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20002417
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "direct-ferries-automation-task",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Direct Ferries Automation Task",
+    "tags": [],
+    "uri": "features/login.feature"
+  }
+]
